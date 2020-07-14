@@ -21,7 +21,7 @@
         <link rel="icon" href="img/favicon.png" sizes="16x16" style="width: 80px;" type="image/png">
         
     </head>
-    <body class="bg-light">
+    <body class="bg-white">
         <?php include "includes/dbconn.php"; // Using database connection file here ?>
         <div id="top offcanvas-close"></div>
         <!-- MENU SECTION -->
@@ -49,24 +49,38 @@
                 <div class="container">
                     <div class="row">
                         
-                    <div class="col-sm-7">
-                        <div class="hero-description">
-                                
-                            <h1 class="display-3 font-weight-bolder hello-name">Coming soon!</h1>
-                            <div class="col-5">
-                                    <span id="day"></span>
-                                    <span id="hour"></span>
-                                    <span id="min"></span>
-                                    <span id="sec"></span>
+                        <div class="col-sm-5">
+                            <div class="hero-description text-center">
+                                    
+                                <h1 class="font-weight-bolder hello-name">Coming soon!</h1>
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <span id="day"></span>
+                                            <p>Days</p>
+                                        </div>
+                                        <div class="col-3">
+                                            <span id="hour"></span>
+                                            <p>hours</p>
+                                        </div>
+                                        <div class="col-3">
+                                            <span id="min"></span>
+                                            <p>Minutes</p>
+                                        </div>
+                                        <div class="col-3">
+                                            <span id="sec"></span>
+                                            <p>Seconds</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-sm-7">
+                            <div class="preview-image mt-0 mt-sm-5 mt-md-5 mt-lg-5 ">
+                                <img src="img/preview-image.png" alt="Image" class="img-fluid">
                             </div>
                         </div>
-
-                    </div>
-                    <div class="col-sm-5">
-                        <div class="preview-image mt-0 mt-sm-5 mt-md-5 mt-lg-5 ">
-                            <img src="img/preview-image.png" alt="Image" class="img-fluid">
-                        </div>
-                    </div>
                     </div>
                 </div>
                 <div id="about"></div>

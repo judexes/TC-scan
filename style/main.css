@@ -145,23 +145,8 @@ body::-webkit-scrollbar-thumb {
 }
 /* On screens that are 415px wide or less*/
 @media screen and (max-width: 415px) {
-    .hero-section {
-/*        background-image: url(../img/hero-mobile.png);
-        background-color: #2862f759;
-*/    }
-    .splash {
-        background-color: #d3d7e282;
-        min-height: inherit;
-    }
-}
-.splash {
-    /*background-color: #d3d7e282;*/
-/*    background-repeat: repeat-x;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    min-height: inherit;*/
+
+
 }
 .about-us-section {
     padding-bottom: 3rem;
@@ -343,6 +328,23 @@ body::-webkit-scrollbar-thumb {
     border-bottom: 65px solid #a7bdf7;
     border-top: 10px solid #a7bdf7;
 }
+#subscribeModal {
+    overflow-x: hidden;
+}
+/* SCROLL BAR */
+#subscribeModal::-webkit-scrollbar {
+    width: 6px;               /* width of the entire scrollbar */
+}
+#subscribeModal::-webkit-scrollbar-track {
+    background: #01707100;  
+        /* color of the tracking area */
+}
+#subscribeModal::-webkit-scrollbar-thumb {
+    background-color: rgba(92, 139, 221, 0.48);    /* color of the scroll thumb */
+    border-radius:50%;           /* roundness of the scroll thumb */
+    margin-right:1px;     
+}
+
 
 .reload-page{
     cursor:pointer;
