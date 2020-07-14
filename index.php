@@ -17,6 +17,8 @@
         <link href="style/vendors/bootstrap.min.css" rel="stylesheet">
         <!-- Custom styles for this template -->
         <link href="style/main.css" rel="stylesheet">
+
+        <link rel="icon" href="img/favicon.png" sizes="16x16" style="width: 80px;" type="image/png">
         
     </head>
     <body class="bg-light">
