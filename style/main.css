@@ -112,7 +112,6 @@ body::-webkit-scrollbar-thumb {
 }
 .splash {
 
-    padding: 8rem 0rem;
 }
 @media (max-width: 414px) {
     .splash {
@@ -136,19 +135,11 @@ body::-webkit-scrollbar-thumb {
     line-height: 25px;
 }
 /* HERO */
-.hero-section {
+.hero-section .preview-image{
   /* The image used */
-    background-image: url(../img/hero.png);
+     /*background-image: url(../img/preview-image.png); */
 
-  /* Full height */
-    height: 100%;
-
-  /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 600px;
+ 
 
 }
 /* On screens that are 415px wide or less*/

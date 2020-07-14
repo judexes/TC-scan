@@ -45,12 +45,22 @@
         <section class="hero-section">
             <div class="splash">
                 <div class="container">
-                    <h1 class="display-3 font-weight-bolder hello-name">Coming soon!</h1>
-                    <div class="col-7">
-                            <span id="day"></span>
-                            <span id="hour"></span>
-                            <span id="min"></span>
-                            <span id="sec"></span>
+                    <div class="row">
+                        
+                    <div class="col-5">
+                        <h1 class="display-3 font-weight-bolder hello-name">Coming soon!</h1>
+                        <div class="col-5">
+                                <span id="day"></span>
+                                <span id="hour"></span>
+                                <span id="min"></span>
+                                <span id="sec"></span>
+                        </div>
+                    </div>
+                    <div class="col-sm-7">
+                        <div class="preview-image">
+                            <img src="img/preview-image.png" alt="Image">
+                        </div>
+                    </div>
                     </div>
                 </div>
                 <div id="about"></div>
@@ -62,15 +72,11 @@
                 
                 <div class="justify-content-around row text-center">
                     <div class="col-10 offset-1">
-                        <div class="about-us about-us-description ml-2 mr-2 text-left">
-                            <h2 class="title font-weight-bold">I am a professional<br>designer from New York</h2>
-                            <p class="title-description">I can help you create positive and permanent changes in your life. High Performance Portfolio Template. Let’s Create Something new and awesome Togeather. I can help you create positive and permanent changes in your life..</p>
-                            <div class="introduction-video" style="
-    width: -webkit-fill-available;
-">
-                            <iframe width="" height="315" src="https://www.youtube.com/embed/0kiYxemsWeg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" style="
-    width: inherit;
-"></iframe>
+                        <div class="about-us about-us-description ml-2 mr-2">
+                            <h2 class="title font-weight-bold">Watch our quick<br>introduction video</h2>
+                            <p class="title-description">An app that scans the terms and conditions of a website or other apps and products so that you know what you're getting into before using that app or product</p>
+                            <div class="introduction-video" style="width: -webkit-fill-available;">
+                            <iframe width="" height="315" src="https://www.youtube.com/embed/0kiYxemsWeg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" style="width: inherit;"></iframe>
                             </div>
                         </div>
                     </div>
