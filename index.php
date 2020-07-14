@@ -48,17 +48,21 @@
                     <div class="row">
                         
                     <div class="col-sm-7">
-                        <h1 class="display-3 font-weight-bolder hello-name">Coming soon!</h1>
-                        <div class="col-5">
-                                <span id="day"></span>
-                                <span id="hour"></span>
-                                <span id="min"></span>
-                                <span id="sec"></span>
+                        <div class="hero-description">
+                                
+                            <h1 class="display-3 font-weight-bolder hello-name">Coming soon!</h1>
+                            <div class="col-5">
+                                    <span id="day"></span>
+                                    <span id="hour"></span>
+                                    <span id="min"></span>
+                                    <span id="sec"></span>
+                            </div>
                         </div>
+
                     </div>
                     <div class="col-sm-5">
                         <div class="preview-image">
-                            <img src="img/preview-image.png" alt="Image">
+                            <img src="img/preview-image.png" alt="Image" class="img-fluid">
                         </div>
                     </div>
                     </div>

@@ -130,9 +130,9 @@ body::-webkit-scrollbar-thumb {
     background-color: #2862f7;
     border-color: #2862f7;
 }
-.splash p {
-    font-size: 18px;
-    line-height: 25px;
+.hero-description {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
 }
 /* HERO */
 .hero-section .preview-image{
@@ -155,12 +155,12 @@ body::-webkit-scrollbar-thumb {
 }
 .splash {
     /*background-color: #d3d7e282;*/
-    background-repeat: repeat-x;
+/*    background-repeat: repeat-x;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    min-height: inherit;
+    min-height: inherit;*/
 }
 .about-us-section {
     padding-bottom: 3rem;
