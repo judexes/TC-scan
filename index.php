@@ -79,6 +79,8 @@
                 <div class="justify-content-around row text-center">
                     <div class="col-10">
                         <div class="about-us about-us-description ml-2 mr-2">
+                            <h6 class="subtitle font-weight-bold text-secondary">Features</h6>
+
                             <h2 class="title font-weight-bold">Watch our quick<br>introduction video</h2>
                             <p class="title-description">An app that scans the terms and conditions of a website or other apps and products so that you know what you're getting into before using that app or product</p>
                             <div class="introduction-video" style="width: -webkit-fill-available;">
@@ -91,6 +93,10 @@
             </div>
         </section>
         <!-- SERVICES SECTION -->
+
+
+
+
 
 <?php /*
 
@@ -256,28 +262,17 @@
         <div class="home-newsletter">
             <div class="container">
                 <div class="row">
-                    <div class="col-12">
-                        <div class="single">
-                            <form method="post" action="">
-                                <h2>Subscribe to our Newsletter</h2>
-                                <div class="input-group">
-                                    <input  type="email" class="form-control text-center" placeholder="Enter your email" name="userEmail" id="userEmail">
-                                    <span class="input-group-btn">
-                                        <input type="submit" name="send" class="btn btn-theme"
-                                        value="Subscribe">
-                                    </span>
-                                </div>
-                                
-                <div id="statusMessage"> 
-                    <?php
-                    if (! empty($message)) {
-                        ?>
-                        <p class='<?php echo $type; ?>Message'><?php echo $message; ?></p>
-                    <?php
-                    }
-                    ?>
-                </div>
-                            </form>
+                    <div class="col-sm-7">
+                        <div class="about-us about-us-description ml-2 mr-2 text-left ">
+                            <h6 class="subtitle font-weight-bold text-secondary">Feel relaxed</h6>
+                            <h2 class="title font-weight-bold text-light">Never again let you worry<br>about terms and conditions!</h2>
+                            <p class="title-description text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate quam<br>ut mi dictum, et euismod sapien condimentum.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-5">
+                        <div class="about-us mr-sm-0 ml-sm-0 profile">
+                            
+                            <img class="img-fluid" src="img/woman-hand.png">
                         </div>
                     </div>
                 </div>
