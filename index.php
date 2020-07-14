@@ -3,8 +3,8 @@
     <head>
         
         <!-- Meta Tags -->
-        <title>Your Designer</title>
-        <meta name="title" content="Your Designer">
+        <title>Scan the Terms and Condition</title>
+        <meta name="title" content="TCScan">
         <meta name="description" content="Your typical designer's portfolio">
         <meta name="author" content="Jude Okoroafor">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
