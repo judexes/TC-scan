@@ -63,7 +63,7 @@
 
                     </div>
                     <div class="col-sm-5">
-                        <div class="preview-image">
+                        <div class="preview-image mt-0 mt-sm-5 mt-md-5 mt-lg-5 ">
                             <img src="img/preview-image.png" alt="Image" class="img-fluid">
                         </div>
                     </div>
@@ -290,12 +290,12 @@
                             <img src="img/logo.png" alt="Logo Image">
                         </a>
                         <h3 class="pt-5 mb-0 text-secondary">Coming soon</h3>
-                        <p class="pb-1 text-muted"><small>Sign up to update with our latest news and products.</small></p>
+                        <p class="pb-1 text-muted"><small>Terms and Condition easy scanner is by the corner. Be the first to know when we launch.</small></p>
                         <form method="post" action="">
                             <div class="input-group mb-3 w-75 mx-auto">
                                 <input type="email" class="form-control" placeholder="tcscan@example.com" aria-label="Recipient's username" aria-describedby="button-addon2" name="userEmail" id="userEmail" required>
                                 <div class="input-group-append">
-                                    <input class="btn btn-primary" type="submit" name="send" value="Subscribe">
+                                    <input class="btn btn-primary" type="submit" name="send" value="Notify Me">
                                 </div>
                             </div>
                         </form>
