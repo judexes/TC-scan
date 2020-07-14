@@ -145,9 +145,9 @@ body::-webkit-scrollbar-thumb {
 /* On screens that are 415px wide or less*/
 @media screen and (max-width: 415px) {
     .hero-section {
-        background-image: url(../img/hero-mobile.png);
+/*        background-image: url(../img/hero-mobile.png);
         background-color: #2862f759;
-    }
+*/    }
     .splash {
         background-color: #d3d7e282;
         min-height: inherit;

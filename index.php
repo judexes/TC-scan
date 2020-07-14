@@ -47,7 +47,7 @@
                 <div class="container">
                     <div class="row">
                         
-                    <div class="col-5">
+                    <div class="col-sm-7">
                         <h1 class="display-3 font-weight-bolder hello-name">Coming soon!</h1>
                         <div class="col-5">
                                 <span id="day"></span>
@@ -56,7 +56,7 @@
                                 <span id="sec"></span>
                         </div>
                     </div>
-                    <div class="col-sm-7">
+                    <div class="col-sm-5">
                         <div class="preview-image">
                             <img src="img/preview-image.png" alt="Image">
                         </div>
@@ -71,7 +71,7 @@
             <div class="container">
                 
                 <div class="justify-content-around row text-center">
-                    <div class="col-10 offset-1">
+                    <div class="col-10">
                         <div class="about-us about-us-description ml-2 mr-2">
                             <h2 class="title font-weight-bold">Watch our quick<br>introduction video</h2>
                             <p class="title-description">An app that scans the terms and conditions of a website or other apps and products so that you know what you're getting into before using that app or product</p>
