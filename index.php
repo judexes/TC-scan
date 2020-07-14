@@ -58,20 +58,20 @@
         </section>
         <!-- ABOUT SECTION -->
         <section class="about-us-section">
-            
             <div class="container">
                 
-                <div class="row text-center ">
-                    <div class="col-sm-6">
+                <div class="justify-content-around row text-center">
+                    <div class="col-10 offset-1">
                         <div class="about-us about-us-description ml-2 mr-2 text-left">
                             <h2 class="title font-weight-bold">I am a professional<br>designer from New York</h2>
                             <p class="title-description">I can help you create positive and permanent changes in your life. High Performance Portfolio Template. Let’s Create Something new and awesome Togeather. I can help you create positive and permanent changes in your life..</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="about-us mb-3 mr-sm-0 ml-sm-0 profile">
-                            
-                            <img class="img-fluid" src="img/about.png">
+                            <div class="introduction-video" style="
+    width: -webkit-fill-available;
+">
+                            <iframe width="" height="315" src="https://www.youtube.com/embed/0kiYxemsWeg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" style="
+    width: inherit;
+"></iframe>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -79,6 +79,10 @@
             </div>
         </section>
         <!-- SERVICES SECTION -->
+
+<?php /*
+
+
         <section class="services-section ">
             
             <div class="container text-center">
@@ -225,6 +229,16 @@
             </div>
         </div>
     </section>
+
+
+
+
+
+*/ ?>
+
+
+
+
     <!-- NEWSLETTER SECTION -->
     <section class="newsletter-section">
         <div class="home-newsletter">
@@ -272,7 +286,7 @@
                         <p class="pb-1 text-muted"><small>Sign up to update with our latest news and products.</small></p>
                         <form method="post" action="">
                             <div class="input-group mb-3 w-75 mx-auto">
-                                <input type="email" class="form-control" placeholder="judeokoroafor@gmail.com" aria-label="Recipient's username" aria-describedby="button-addon2" name="userEmail" id="userEmail" required>
+                                <input type="email" class="form-control" placeholder="tcscan@example.com" aria-label="Recipient's username" aria-describedby="button-addon2" name="userEmail" id="userEmail" required>
                                 <div class="input-group-append">
                                     <input class="btn btn-primary" type="submit" name="send" value="Subscribe">
                                 </div>
