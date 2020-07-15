@@ -171,7 +171,6 @@
         <!-- ABOUT SECTION -->
         <section class="howitworks-section">
             <div class="container">
-                
                 <div class="justify-content-around row text-center">
                     <div class="col-10">
                         <div class="ml-2 mr-2">
