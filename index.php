@@ -11,7 +11,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <meta name="robots" content="index, follow">
         <meta name="language" content="English">
-        <meta name="keywords" content="Template, HTML, YourDesigner, Designer">
+        <meta name="keywords" content="Template, HTML, TCScan, scanner">
         <!-- Hero CSS -->
         <!-- Bootstrap core CSS -->
         <link href="style/vendors/bootstrap.min.css" rel="stylesheet">

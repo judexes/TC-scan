@@ -172,11 +172,3 @@ var x = setInterval(function() {
     document.getElementById("demo").innerHTML = "TIMER EXPIRED";
   }
 }, 1000);
-
-
-
-// Loading
-
-$(function() {
-	$(".loading-wrapper").fadeOut(5000);
-});
