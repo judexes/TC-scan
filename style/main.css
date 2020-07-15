@@ -29,15 +29,6 @@ body::-webkit-scrollbar-thumb {
     width:100%;
     color: red;
 }
-.text-box {
-    position: absolute;
-    top: 50%;
-    left: 15%;
-    right: 15%;
-    color: #000;
-    text-align: center;
-    transform: translateY(-50%);
-}
 .navbar-main {
     background-color: #fff;
     padding-left: 4rem;
@@ -82,8 +73,8 @@ body::-webkit-scrollbar-thumb {
   transition: 0.2s;
   width: 80px;
 }
-.splash {
-
+.splash .img-fluid {
+    max-width: 106%;
 }
 @media (max-width: 414px) {
     .splash {
@@ -112,6 +103,7 @@ body::-webkit-scrollbar-thumb {
 .hero-description p{
     font-size: small;
     color: #0b1fc6;
+    font-weight: 600;
 }
 .hero-description .hero-form {
     max-width: 650px;
@@ -144,114 +136,25 @@ body::-webkit-scrollbar-thumb {
 .newsletter-section .btn.focus, .newsletter-section .btn:focus {
     box-shadow: 0 0 0 0.2rem rgba(61, 60, 60, 0.24);
 }
-/* On screens that are 415px wide or less*/
-@media screen and (max-width: 415px) {
-
-
-}
 .about-us-section {
     padding-bottom: 3rem;
     padding-top: 3rem;
 }
-.profile img {
-    max-width: 60%;
-}
 /* On screens that are 770px wide or less*/
 @media screen and (max-width: 770px) {
-    .profile img {
-        max-width: 100%;
-    }
 }
 /* On screens that are 415px wide or less*/
 @media screen and (max-width: 415px) {
-    .title {
-        font-size: 1.6rem;
-    }
 }
-
-.title-description {
-    color: #3D3C3C;
-}
-.services-section {
+.howitworks-section {
     padding-bottom: 3rem;
     padding-top: 3rem;
 }
-.portfolio-section {
-    padding-bottom: 3rem;
-    padding-top: 3rem;
+.howitworks-section .icons img {
+    max-width: 40px;
 }
 .btn {
     min-width: max-content;
-}
-.experience-section {
-  /* The image used */
-    background-image: url(../img/experience.png);
-
-  /* Full height */
-    height: 100%;
-
-  /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100px;
-}
-.experience-shade {
-    background-image: url(../img/experience-shade.png);
-    background-color: #2862f759;
-    background-repeat: repeat-x;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    min-height: 100px;
-}
-.experience-section p {
-    margin-top: 0;
-    margin-bottom: 0.3rem;
-}
-.experience {
-    padding: 2rem 0rem;
-}
-.testimonial-section .parallax {
-    background-image: url(../img/testimonial.png);
-    height: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 400px;
-
-}
-.testimonial-shade {
-    /* background-image: url(../img/testimonial-shade.png); */
-    background-color: #0000004a;
-    background-repeat: repeat-x;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    min-height: 400px;
-}
-.testimonial-section-header p {
-    margin-bottom: 0rem;
-}
-.testimonial .profile {
-    padding: 5rem 2rem;
-}
-.testimonial .profile img{
-    max-width: 40%;
-}
-.counter {
-    padding: 20px 0;
-    border-radius: 5px;
-}
-.testimonial .card {
-    min-height: 250px;
-}
-.testimonial .card-text {
-    font-size: small;
 }
 .home-newsletter {
     padding-top: 60px;
