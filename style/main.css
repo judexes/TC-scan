@@ -1,7 +1,6 @@
 
 
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 html {
     scroll-behavior: smooth;
@@ -131,17 +130,52 @@ body::-webkit-scrollbar-thumb {
     background-color: #2862f7;
     border-color: #2862f7;
 }
-.hero-description {
-    margin-top: 8rem;
-    margin-bottom: 8rem;
+.hero-section {
+    padding-bottom: 5rem;
 }
-/* HERO */
-.hero-section .preview-image{
-  /* The image used */
-     /*background-image: url(../img/preview-image.png); */
+.hero-description span{
+    font-size: 24px;
+    font-weight: 400;
+}
+.hero-description p{
+    font-size: small;
+}
 
- 
-
+.home-newsletter {
+    padding: 80px 0;
+    background: #2162ae;
+}
+.home-newsletter .single {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+.home-newsletter .single h2 {
+    font-size: 22px;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.home-newsletter .single .form-control {
+    height: 50px;
+    background:#fff;
+    border-color: transparent;
+    border-radius: 30px 0 0 30px;
+}
+.home-newsletter .single .form-control:focus {
+    box-shadow: none;
+    border-color: #243c4f;
+}
+.home-newsletter .single .btn {
+    min-height: 50px;
+    border-radius: 0 30px 30px 0;
+    background: #243c4f;
+    color: #fff;
+}
+.newsletter-section .btn.focus, .newsletter-section .btn:focus {
+    box-shadow: 0 0 0 0.2rem rgba(61, 60, 60, 0.24);
 }
 /* On screens that are 415px wide or less*/
 @media screen and (max-width: 415px) {

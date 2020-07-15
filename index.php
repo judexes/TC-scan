@@ -49,10 +49,10 @@
                 <div class="container">
                     <div class="row">
                         
-                        <div class="col-sm-5">
-                            <div class="hero-description text-center">
+                        <div class="col-sm-5 mt-sm-5">
+                            <div class="hero-description pb-5 pt-5 text-center">
                                     
-                                <h1 class="font-weight-bolder hello-name">Coming soon!</h1>
+                                <h1 class="font-weight-bolder mt-5">Coming soon!</h1>
                                 <div class="col-12">
                                     <div class="row">
                                         <div class="col-3">
@@ -73,6 +73,59 @@
                                         </div>
                                     </div>
                                 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="home-newsletter">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="single">
+                            <form method="post" action="">
+                                <h2>Subscribe to our newsletter to stay in the latest news</h2>
+                                <div class="input-group">
+                                    <input type="email" class="form-control text-center" placeholder="Enter your email" name="userEmail" id="userEmail">
+                                    <span class="input-group-btn">
+                                        <input type="submit" name="send" class="btn btn-theme" value="Subscribe">
+                                    </span>
+                                </div>
+                                
+                <div id="statusMessage"> 
+                                    </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+                                
                             </div>
 
                         </div>
@@ -303,7 +356,7 @@
                         <a href="#">
                             <img src="img/logo.png" alt="Logo Image">
                         </a>
-                        <h3 class="pt-5 mb-0 text-secondary">Coming soon</h3>
+                        <h3 class="pt-5 mb-0 text-secondary">&nbsp;</h3>
                         <p class="pb-1 text-muted"><small>Terms and Condition easy scanner is by the corner. Be the first to know when we launch.</small></p>
                         <form method="post" action="">
                             <div class="input-group mb-3 w-75 mx-auto">

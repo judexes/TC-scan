@@ -119,7 +119,7 @@ function scrollFunction() {
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
     document.getElementById("logo").style.width = "70px";
   } else {
-    document.getElementById("logo").style.width = "80px";
+    document.getElementById("logo").style.width = "100px";
   }
 }
 
