@@ -7,6 +7,5 @@ if(!empty($_POST["send"])) {
 
 	$conn = mysqli_connect("localhost", "root", "", "scan-tc_db") or die("Connection Error: database currently set up locally" . mysqli_error($conn));
 	mysqli_query($conn, "INSERT INTO subscribers (email) VALUES ('" . $email. "')");
-	$insert_id = mysqli_insert_id($conn);
 }
 ?>

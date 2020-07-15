@@ -76,7 +76,7 @@
                                 <div class="col-12">
                                     <div class="hero-form">
                                         <form method="post" action="">
-                                            <h2 class="mb-3 mt-4">Subscribe to our newsletter to stay in the latest news</h2>
+                                            <h2 class="mb-3 mt-4">Be the first to know when we launch</h2>
                                             <div class="input-group">
                                                 <input type="email" class="form-control text-center" placeholder="Enter your email" name="userEmail" id="userEmail">
                                                 <span class="input-group-btn">
