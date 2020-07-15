@@ -101,7 +101,6 @@ body::-webkit-scrollbar-thumb {
     padding: .25rem .75rem;
     font-size: 1.25rem;
     line-height: 1;
-    background-color: #007bff;
     border: 1px solid #14317c;
     border-radius: 0rem;
 }
@@ -139,39 +138,34 @@ body::-webkit-scrollbar-thumb {
 }
 .hero-description p{
     font-size: small;
+    color: #0b1fc6;
 }
-
-.home-newsletter {
-    padding: 80px 0;
-    background: #2162ae;
-}
-.home-newsletter .single {
+.hero-description .hero-form {
     max-width: 650px;
     margin: 0 auto;
     text-align: center;
     position: relative;
     z-index: 2;
 }
-.home-newsletter .single h2 {
-    font-size: 22px;
-    color: white;
-    text-transform: uppercase;
-    margin-bottom: 40px;
+.hero-description .hero-form h2 {
+    font-size: 14px;
+    color: #212529;
 }
-.home-newsletter .single .form-control {
-    height: 50px;
-    background:#fff;
-    border-color: transparent;
+.hero-description .hero-form .form-control {
+    min-height: 50px;
+    background:transparent;
     border-radius: 30px 0 0 30px;
+    border: 1px solid;
 }
-.home-newsletter .single .form-control:focus {
+.hero-description .hero-form .form-control:focus {
     box-shadow: none;
     border-color: #243c4f;
 }
-.home-newsletter .single .btn {
+.hero-description .hero-form .btn {
     min-height: 50px;
+    border: 1px;
     border-radius: 0 30px 30px 0;
-    background: #243c4f;
+    background: #14317c;
     color: #fff;
 }
 .newsletter-section .btn.focus, .newsletter-section .btn:focus {

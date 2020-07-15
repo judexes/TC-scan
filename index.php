@@ -52,7 +52,7 @@
                         <div class="col-sm-5 mt-sm-5">
                             <div class="hero-description pb-5 pt-5 text-center">
                                     
-                                <h1 class="font-weight-bolder mt-5">Coming soon!</h1>
+                                <h1 class="font-weight-bolder mt-5 mb-2">Coming soon!</h1>
                                 <div class="col-12">
                                     <div class="row">
                                         <div class="col-3">
@@ -73,59 +73,19 @@
                                         </div>
                                     </div>
                                 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="home-newsletter">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="single">
-                            <form method="post" action="">
-                                <h2>Subscribe to our newsletter to stay in the latest news</h2>
-                                <div class="input-group">
-                                    <input type="email" class="form-control text-center" placeholder="Enter your email" name="userEmail" id="userEmail">
-                                    <span class="input-group-btn">
-                                        <input type="submit" name="send" class="btn btn-theme" value="Subscribe">
-                                    </span>
-                                </div>
-                                
-                <div id="statusMessage"> 
+                                <div class="col-12">
+                                    <div class="hero-form">
+                                        <form method="post" action="">
+                                            <h2 class="mb-3 mt-4">Subscribe to our newsletter to stay in the latest news</h2>
+                                            <div class="input-group">
+                                                <input type="email" class="form-control text-center" placeholder="Enter your email" name="userEmail" id="userEmail">
+                                                <span class="input-group-btn">
+                                                    <input type="submit" name="send" class="btn btn-theme" value="Subscribe">
+                                                </span>
+                                            </div>
+                                        </form>
                                     </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-
-
-
-
-
-
-
-
-
-                                
+                                </div>                                
                             </div>
 
                         </div>
