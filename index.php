@@ -12,7 +12,8 @@
         <meta name="robots" content="index, follow">
         <meta name="language" content="English">
         <meta name="keywords" content="Template, HTML, TCScan, scanner">
-        <!-- Hero CSS -->
+        <!-- Animate CSS -->
+        <link rel="stylesheet" href="style/vendors/animate.css/4.0.0/animate.min.css"/>
         <!-- Bootstrap core CSS -->
         <link href="style/vendors/bootstrap.min.css" rel="stylesheet">
         <!-- Custom styles for this template -->
@@ -52,7 +53,7 @@
                         <div class="col-sm-5 mt-sm-5">
                             <div class="hero-description pb-5 pt-5 text-center">
                                     
-                                <h1 class="font-weight-bolder mt-5 mb-2">Coming soon!</h1>
+                                <h1 class="mt-5 mb-2" style="font-weight: 900;">Coming soon!</h1>
                                 <div class="col-12">
                                     <div class="row">
                                         <div class="col-3">
@@ -77,7 +78,7 @@
                                     <div class="hero-form">
                                         <form method="post" action="">
                                             <h2 class="mb-3 mt-4">Be the first to know when we launch</h2>
-                                            <div class="input-group">
+                                            <div class="input-group animate__animated animate__bounce">
                                                 <input type="email" class="form-control text-center" placeholder="Enter your email" name="userEmail" id="userEmail">
                                                 <span class="input-group-btn">
                                                     <input type="submit" name="send" class="btn btn-theme" value="Subscribe">
