@@ -107,7 +107,7 @@ body::-webkit-scrollbar-thumb {
 }
 .hero-description span{
     font-size: 24px;
-    font-weight: 400;
+    font-weight: 600;
 }
 .hero-description p{
     font-size: small;
@@ -121,7 +121,7 @@ body::-webkit-scrollbar-thumb {
     z-index: 2;
 }
 .hero-description .hero-form h2 {
-    font-size: 14px;
+    font-size: 16px;
     color: #212529;
 }
 .hero-description .hero-form .form-control {
@@ -171,7 +171,6 @@ body::-webkit-scrollbar-thumb {
 
 .title-description {
     color: #3D3C3C;
-    font-size: smaller;
 }
 .services-section {
     padding-bottom: 3rem;

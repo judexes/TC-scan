@@ -78,7 +78,7 @@
                                     <div class="hero-form">
                                         <form method="post" action="">
                                             <h2 class="mb-3 mt-4">Be the first to know when we launch</h2>
-                                            <div class="input-group animate__animated animate__backInRight">
+                                            <div class="input-group">
                                                 <input type="email" class="form-control text-center" placeholder="Enter your email" name="userEmail" id="userEmail">
                                                 <span class="input-group-btn">
                                                     <input type="submit" name="send" class="btn btn-theme" value="Subscribe">
@@ -92,7 +92,7 @@
                         </div>
                         <div class="col-sm-7">
                             <div class="preview-image mt-0 mt-sm-5 mt-md-5 mt-lg-5 ">
-                                <img src="img/preview-image.png" alt="Image" class="img-fluid animate__animated animate__backInRight">
+                                <img src="img/preview-image.png" alt="Image" class="img-fluid animate__animated animate__backInRight animate__delay-1s">
                             </div>
                         </div>
                     </div>
@@ -300,7 +300,7 @@
                     <div class="col-sm-5">
                         <div class="about-us mr-sm-0 ml-sm-0 profile">
                             
-                            <img class="img-fluid  animate__animated animate__backInRight" src="img/woman-hand.png">
+                            <img class="img-fluid  animate__animated animate__backInRight animate__delay-4s" src="img/woman-hand.png">
                         </div>
                     </div>
                 </div>
