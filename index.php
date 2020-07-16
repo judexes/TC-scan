@@ -24,7 +24,7 @@
     </head>
     <body class="bg-white">
         <?php include "includes/dbconn.php"; // Using database connection file here ?>
-        
+
         <!-- MENU SECTION -->
         <section class="">
             <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbar-main ">
@@ -182,6 +182,28 @@
                 </div>
                 <div id="services"></div>
             </div>
+        </section>
+        
+        <!-- REACH US SECTION -->
+        <section class="reach-us-section">
+            <div class="reach-us">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <div class="about-us about-us-description ml-2 mr-2 text-left ">
+                                <h6 class="subtitle font-weight-bold text-secondary">Reach us</h6>
+                                <h2 class="title font-weight-bold text-light">Subscribe now, be the<br>first to know!</h2>
+                            </div>
+                        </div>
+                        <div class="col-sm-5">
+                            <div class="about-us mr-sm-0 ml-sm-0 profile">
+                                
+                                <img class="img-fluid  animate__animated animate__backInRight animate__delay-4s" src="img/call-us.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>            
         </section>
 
         <!-- SUBSCRIBE POP UP SECTION -->

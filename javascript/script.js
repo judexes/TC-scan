@@ -102,15 +102,15 @@ jQuery(function ($) {
 
 
 // When the user scrolls down 50px from the top of the document, resize the header's font size
-window.onscroll = function() {scrollFunction()};
+// window.onscroll = function() {scrollFunction()};
 
-function scrollFunction() {
-  if (document.body.scrollTop > 85 || document.documentElement.scrollTop > 85) {
-    document.getElementById("logo").style.width = "85px";
-  } else {
-    document.getElementById("logo").style.width = "110px";
-  }
-}
+// function scrollFunction() {
+//   if (document.body.scrollTop > 85 || document.documentElement.scrollTop > 85) {
+//     document.getElementById("logo").style.width = "85px";
+//   } else {
+//     document.getElementById("logo").style.width = "110px";
+//   }
+// }
 
 // Subscribe Pop up
 $(window).on('load', function() {
