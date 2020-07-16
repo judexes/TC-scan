@@ -192,7 +192,8 @@
                         <div class="col-sm-7">
                             <div class="about-us about-us-description ml-2 mr-2 text-left ">
                                 <h6 class="subtitle font-weight-bold text-secondary">Reach us</h6>
-                                <h2 class="title font-weight-bold text-light">Subscribe now, be the<br>first to know!</h2>
+                                <h2 class="title font-weight-bold text-light">Share scans from anywhere</h2>
+                                <p class="title-description text-light">Scans are stored in Google Cloud Document so they’re easy to access, share, or upload directly into emails.</p>
                             </div>
                         </div>
                         <div class="col-sm-5">
