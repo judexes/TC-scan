@@ -130,7 +130,7 @@ $(window).on('load', function() {
    }, 7000);
    setTimeout(function(){
 	   $('.subscribeModal-lg').modal('show');
-   }, 10000);
+   }, 100000);
 });
 
 
