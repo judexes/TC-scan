@@ -235,6 +235,16 @@
             </div>
         </section>
 
+        <section class="footer-section pt-4 pb-4">
+            <div class="container-fluid copyright">
+                <div class="row">
+                    <div class="col-12">
+                        <p class="text-center text-white mb-0">&copy; 2020</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
 
 <!-- TEST CODE SECTION -->
 

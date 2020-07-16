@@ -150,7 +150,10 @@ body::-webkit-scrollbar-thumb {
 .reach-us-section {
     padding-top: 60px;
     background: radial-gradient(50% 50% at 50% 50%, #324BCE 0%, #1F339D 100%);
-        }
+}
+.footer-section {
+    background-color: #262627;
+}
 .btn {
     min-width: max-content;
 }
