@@ -131,7 +131,7 @@
                             <div class="about-us about-us-description ml-2 mr-2 text-left ">
                                 <h6 class="subtitle font-weight-bold text-secondary">Feel relaxed</h6>
                                 <h2 class="title font-weight-bold text-light">Never again let you worry<br>about terms and conditions!</h2>
-                                <p class="title-description text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate quam<br>ut mi dictum, et euismod sapien condimentum.</p>
+                                <p class="title-description text-light">Just by entering a url, we scan the site's terms and conditions and simplify the terms and condition to few Kew paragraphs using our TCScan Sensei, the powerful AI behind many of our intelligent features.
                             </div>
                         </div>
                         <div class="col-sm-5">
@@ -192,9 +192,9 @@
                     <div class="row">
                         <div class="col-sm-7">
                             <div class="about-us about-us-description ml-2 mr-2 text-left ">
-                                <h6 class="subtitle font-weight-bold text-secondary">Reach us</h6>
-                                <h2 class="title font-weight-bold text-light">Share scans from anywhere</h2>
-                                <p class="title-description text-light">Scans are stored in Google Cloud Document so they’re easy to access, share, or upload directly into emails.</p>
+                                <h6 class="subtitle font-weight-bold text-secondary">AI-Enhanced Scans</h6>
+                                <h2 class="title font-weight-bold text-light">Intelligently scan<br>anything in a snap</h2>
+                                <p class="title-description text-light">TCScan Sensei, the powerful AI behind many of our intelligent features. We scan even physical document and identify the clauses in the terms and conditions while eliminating the hassle of reading and studying the whole document before finding a clause</p>
                             </div>
                         </div>
                         <div class="col-sm-5">
