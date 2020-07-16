@@ -53,7 +53,7 @@
                         <div class="col-sm-5 mt-sm-5">
                             <div class="hero-description pb-5 pt-5 text-center">
                                     
-                                <h1 class="mt-5 mb-2" style="font-weight: 900;">Coming soon!</h1>
+                                <h1 class="mt-5 mb-4" style="font-weight: 900;">Coming soon!</h1>
                                 <div class="col-12">
                                     <div class="row">
                                         <div class="col-3">
