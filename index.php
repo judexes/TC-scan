@@ -24,10 +24,9 @@
     </head>
     <body class="bg-white">
         <?php include "includes/dbconn.php"; // Using database connection file here ?>
-        <div id="top offcanvas-close"></div>
+        
         <!-- MENU SECTION -->
         <section class="">
-            <!-- ------------------------ MAIN NAV ----------------------- -->
             <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbar-main ">
                 <a class="navbar-brand mr-auto mr-lg-0 reload-page" href="#" id="Reloadpage">
                     <img src="img/logo.png" alt="Logo Image" id="logo">
@@ -42,8 +41,8 @@
                 <span class="navbar-toggler-icon"></span>
                 </button>
             </nav>
-            <!----------------------- SECONDARY NAV ------------------------->
         </section>
+
         <!-- HERO SECTION -->
         <section class="hero-section">
             <div class="splash">
@@ -100,6 +99,7 @@
                 <div id="about"></div>
             </div>
         </section>
+
         <!-- ABOUT SECTION -->
         <section class="about-us-section">
             <div class="container">
@@ -120,7 +120,9 @@
                 <div id="services"></div>
             </div>
         </section>
-        <section class="feelrelaxed-section">
+        
+        <!-- FEEL RELAXED SECTION -->
+        <section class="feel-relaxed-section">
             <div class="feel-relaxed">
                 <div class="container">
                     <div class="row">
@@ -139,9 +141,9 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            
+            </div>            
         </section>
+
         <!-- HOW IT WORKS SECTION -->
         <section class="howitworks-section">
             <div class="container">
@@ -182,13 +184,8 @@
             </div>
         </section>
 
-
-
-
-
         <!-- SUBSCRIBE POP UP SECTION -->
         <section>
-
             <p class="text-muted text-center d-none">Wait! medium Modal will load in 1 seconds and large modal will load in 5 seconds.</p>
             <div class="modal fade text-center py-5 animate__animated animate__backInRight animate__delay-6s"  id="subscribeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-md" role="document" style="margin-top: 5rem;">
@@ -218,6 +215,10 @@
 
 
 <!-- TEST CODE SECTION -->
+
+<!-- END TEST CODE SECTION -->
+
+
 
 
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
