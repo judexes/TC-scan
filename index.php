@@ -176,7 +176,7 @@
                         <div class="ml-2 mr-2">
                             <h2 class="title font-weight-bold">Here's How It Works</h2>
                             <p class="title-description">When you visit a website or an app, the app gains access automatically with your approval to read the terms and conditions for you without any crossing any Red lines. Then it notifies you of certain clauses within the document being scanned.</p>
-                            <div class="row icons">
+                            <div class="row icons mt-5">
                                 <div class="col-4">
                                     <img src="img/download.png">
                                     <p>Download the App</p>
@@ -186,7 +186,7 @@
                                     <p>Sign Up</p>
                                 </div>
                                 <div class="col-4">
-                                    <img src="img/sign-up.png">
+                                    <img src="img/sign-up.png" style="max-width: 35px!important;">
                                     <p>Turn on Read Access</p>
                                 </div>
                             </div>
