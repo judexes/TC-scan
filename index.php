@@ -29,7 +29,7 @@
         <section class="">
             <!-- ------------------------ MAIN NAV ----------------------- -->
             <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbar-main ">
-                <a class="navbar-brand mr-auto mr-lg-0 reload-page" href="#" id="Reloadpage" style="min-width: 80px;">
+                <a class="navbar-brand mr-auto mr-lg-0 reload-page" href="#" id="Reloadpage">
                     <img src="img/logo.png" alt="Logo Image" id="logo">
                 </a>
                 <span class=" mr-auto mr-lg-0 d-none d-sm-block socials " id="">
@@ -141,9 +141,56 @@
                 </div>
             </div>
             
-            <!-- SUBSCRIBE POP UP -->
+        </section>
+        <!-- HOW IT WORKS SECTION -->
+        <section class="howitworks-section">
+            <div class="container">
+                <div class="justify-content-around row text-center">
+                    <div class="col-10">
+                        <div class="ml-2 mr-2">
+                            <h2 class="title font-weight-bold">Here's How It Works</h2>
+                            <p class="title-description">When you visit a website or an app, the app gains access automatically with your approval to read the terms and conditions for you without any crossing any Red lines. Then it notifies you of certain clauses within the document being scanned.</p>
+                            <div class="row icons mt-5">
+                                <div class="col-4">
+                                    <img src="img/download.png">
+                                    <p>Download the App</p>
+                                </div>
+                                <div class="col-4">
+                                    <img src="img/doc.png">
+                                    <p>Sign Up</p>
+                                </div>
+                                <div class="col-4">
+                                    <img src="img/sign-up.png" style="max-width: 35px!important;">
+                                    <p>Turn on Read Access</p>
+                                </div>
+                            </div>
+                            <div class="row screens-preview mt-5">
+                                <div class="col-4">
+                                    <img src="img/screen1.png" class="img-fluid">
+                                </div>
+                                <div class="col-4">
+                                    <img src="img/screen2.png" class="img-fluid">
+                                </div>
+                                <div class="col-4">
+                                    <img src="img/screen3.png" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="services"></div>
+            </div>
+        </section>
+
+
+
+
+
+        <!-- SUBSCRIBE POP UP SECTION -->
+        <section>
+
             <p class="text-muted text-center d-none">Wait! medium Modal will load in 1 seconds and large modal will load in 5 seconds.</p>
-            <div class="modal fade text-center py-5"  id="subscribeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal fade text-center py-5 animate__animated animate__backInRight animate__delay-6s"  id="subscribeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-md" role="document" style="margin-top: 5rem;">
                     <div class="modal-content">
                         <div class="modal-body">
@@ -168,40 +215,6 @@
                 </div>
             </div>
         </section>
-        <!-- HOW IT WORKS SECTION -->
-        <section class="howitworks-section">
-            <div class="container">
-                <div class="justify-content-around row text-center">
-                    <div class="col-10">
-                        <div class="ml-2 mr-2">
-                            <h2 class="title font-weight-bold">Here's How It Works</h2>
-                            <p class="title-description">When you visit a website or an app, the app gains access automatically with your approval to read the terms and conditions for you without any crossing any Red lines. Then it notifies you of certain clauses within the document being scanned.</p>
-                            <div class="row icons mt-5">
-                                <div class="col-4">
-                                    <img src="img/download.png">
-                                    <p>Download the App</p>
-                                </div>
-                                <div class="col-4">
-                                    <img src="img/doc.png">
-                                    <p>Sign Up</p>
-                                </div>
-                                <div class="col-4">
-                                    <img src="img/sign-up.png" style="max-width: 35px!important;">
-                                    <p>Turn on Read Access</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="services"></div>
-            </div>
-        </section>
-
-
-
-
-
-
 
 
 <!-- TEST CODE SECTION -->

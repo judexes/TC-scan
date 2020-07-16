@@ -131,6 +131,10 @@ body::-webkit-scrollbar-thumb {
 .howitworks-section .icons img {
     max-width: 25px;
     width: 100%;
+    margin-bottom: 1rem;
+}
+.howitworks-section .icons p {
+    font-size: small;
 }
 .btn {
     min-width: max-content;

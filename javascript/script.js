@@ -1,16 +1,5 @@
 
 
-// MOBILE NAVBAR TOGGLE
-$(function () {
-    'use strict'
-  
-    $('[data-toggle="offcanvas"]').on('click', function () {
-      $('.offcanvas-collapse').toggleClass('open');
-      $('.offcanvas-close').toggleClass('close');
-    })
-  });
-
-
 //  COUNTER FUNCTION
 (function ($) {
 	$.fn.countTo = function (options) {
@@ -116,7 +105,7 @@ jQuery(function ($) {
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+  if (document.body.scrollTop > 85 || document.documentElement.scrollTop > 85) {
     document.getElementById("logo").style.width = "85px";
   } else {
     document.getElementById("logo").style.width = "110px";
