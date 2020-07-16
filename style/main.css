@@ -111,9 +111,6 @@ body::-webkit-scrollbar-thumb {
     background: #2843f7;
     color: #fff;
 }
-.newsletter-section .btn.focus, .newsletter-section .btn:focus {
-    box-shadow: 0 0 0 0.2rem rgba(61, 60, 60, 0.24);
-}
 .about-us-section {
     padding-bottom: 3rem;
     padding-top: 3rem;
@@ -123,6 +120,13 @@ body::-webkit-scrollbar-thumb {
 }
 /* On screens that are 415px wide or less*/
 @media screen and (max-width: 415px) {
+}
+.feel-relaxed-section .btn.focus, .feel-relaxed-section .btn:focus {
+    box-shadow: 0 0 0 0.2rem rgba(61, 60, 60, 0.24);
+}
+.feel-relaxed {
+    padding-top: 60px;
+    background: radial-gradient(50% 50% at 50% 50%, #324BCE 0%, #1F339D 100%);
 }
 .howitworks-section {
     padding-bottom: 3rem;
@@ -138,10 +142,6 @@ body::-webkit-scrollbar-thumb {
 }
 .btn {
     min-width: max-content;
-}
-.home-newsletter {
-    padding-top: 60px;
-    background: radial-gradient(50% 50% at 50% 50%, #324BCE 0%, #1F339D 100%);
 }
 .text-secondary {
     color: #c2c2c2!important;

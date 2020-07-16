@@ -120,8 +120,8 @@
                 <div id="services"></div>
             </div>
         </section>
-        <section class="newsletter-section">
-            <div class="home-newsletter">
+        <section class="feelrelaxed-section">
+            <div class="feel-relaxed">
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-7">
