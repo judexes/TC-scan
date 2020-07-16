@@ -141,7 +141,7 @@
                 </div>
             </div>
             
-            <!-- subscribe Modal -->
+            <!-- SUBSCRIBE POP UP -->
             <p class="text-muted text-center d-none">Wait! medium Modal will load in 1 seconds and large modal will load in 5 seconds.</p>
             <div class="modal fade text-center py-5"  id="subscribeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-md" role="document" style="margin-top: 5rem;">
@@ -168,7 +168,7 @@
                 </div>
             </div>
         </section>
-        <!-- ABOUT SECTION -->
+        <!-- HOW IT WORKS SECTION -->
         <section class="howitworks-section">
             <div class="container">
                 <div class="justify-content-around row text-center">
@@ -196,6 +196,17 @@
                 <div id="services"></div>
             </div>
         </section>
+
+
+
+
+
+
+
+
+<!-- TEST CODE SECTION -->
+
+
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="javascript/vendors/bootstrap.bundle.js"></script>
         <script src="javascript/script.js"></script>

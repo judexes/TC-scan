@@ -58,6 +58,10 @@ body::-webkit-scrollbar-thumb {
         font-size: 2.5rem;
     }
 }
+.splash h1 {
+    font-size: 3.2rem;
+    line-height: 25px;
+}
 .btn {
     /* border-radius: 3rem; */
     font-size: x-small;
