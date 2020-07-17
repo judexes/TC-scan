@@ -20,8 +20,6 @@
         <link href="style/main.css" rel="stylesheet">
 
         <link rel="icon" href="img/favicon.png" sizes="16x16" style="width: 80px;" type="image/png">
-        
-        <script src="javascript/script.js"></script>
     </head>
     <body class="bg-white">
         <?php include "includes/dbconn.php"; // Using database connection file here ?>
@@ -257,5 +255,7 @@
 
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="javascript/vendors/bootstrap.bundle.js"></script>
+        
+        <script src="javascript/script.js"></script>
     </body>
 </html>
