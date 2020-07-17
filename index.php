@@ -200,7 +200,7 @@
                         <div class="col-sm-5">
                             <div class="about-us mr-sm-0 ml-sm-0 profile">
                                 
-                                <img class="img-fluid  animate__animated animate__backInRight animate__delay-4s" src="img/sensie.png">
+                                <img class="img-fluid  animate__animated animate__backInRight animate__delay-4s" src="img/call-us.png">
                             </div>
                         </div>
                     </div>
