@@ -124,9 +124,6 @@ body::-webkit-scrollbar-thumb {
     .navbar-main {
         padding-left: 2rem;
     }
-    .howitworks-section .screens-preview img {
-        width: 100%;
-    }
 }
 .feel-relaxed-section .btn.focus, .feel-relaxed-section .btn:focus {
     box-shadow: 0 0 0 0.2rem rgba(61, 60, 60, 0.24);
