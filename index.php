@@ -184,6 +184,23 @@
                                     </a>
                                 </div>
                             </div>
+                            <div class="row screens-preview mt-5">
+                                <div class="col-4">
+                                    <a class="preview-image-link" href="img/screen4.png" data-lightbox="preview-screen-set" data-title="Click the right half of the image to move forward.">
+                                        <img class="preview-screen-image img-fluid animate__animated animate__backInLeft animate__delay-2s" src="img/screen4.png" alt=""/>
+                                    </a>
+                                </div>
+                                <div class="col-4">
+                                    <a class="preview-image-link" href="img/screen5.png" data-lightbox="preview-screen-set" data-title="Click the right half of the image to move forward.">
+                                        <img class="preview-screen-image img-fluid animate__animated animate__backInTop animate__delay-2s" src="img/screen5.png" alt=""/>
+                                    </a>
+                                </div>
+                                <div class="col-4">
+                                    <a class="preview-image-link" href="img/screen6.png" data-lightbox="preview-screen-set" data-title="Click the right half of the image to move forward.">
+                                        <img class="preview-screen-image img-fluid animate__animated animate__backInRight animate__delay-2s" src="img/screen6.png" alt=""/>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
