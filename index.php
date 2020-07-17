@@ -169,7 +169,7 @@
                             </div>
                             <div class="row screens-preview mt-5">
                                 <div class="col-4">
-                                    <a class="preview-image-link" href="img/screen2.png" data-lightbox="preview-screen-set" data-title="Click the right half of the image to move forward.">
+                                    <a class="preview-image-link" href="img/screen1.png" data-lightbox="preview-screen-set" data-title="Click the right half of the image to move forward.">
                                         <img class="preview-screen-image img-fluid animate__animated animate__backInLeft animate__delay-2s" src="img/screen1.png" alt=""/>
                                     </a>
                                 </div>
