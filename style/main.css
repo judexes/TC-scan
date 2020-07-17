@@ -34,7 +34,6 @@ body::-webkit-scrollbar-thumb {
     background-color: #fff;
     padding-left: 4rem;
     padding-right: 4rem;
-    box-shadow: 0px 6px 5px -3px rgba(37, 67, 244, 0.2);
 }
 .navbar-toggler {
     padding: .25rem .75rem;
