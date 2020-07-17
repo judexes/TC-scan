@@ -12,6 +12,8 @@
         <meta name="robots" content="index, follow">
         <meta name="language" content="English">
         <meta name="keywords" content="Template, HTML, TCScan, scanner">
+        <!-- Lightbos CSS -->
+        <link rel="stylesheet" href="style/vendors/lightbox2-2.1.1/lightbox.min.css">
         <!-- Animate CSS -->
         <link rel="stylesheet" href="style/vendors/animate.css/4.0.0/animate.min.css"/>
         <!-- Bootstrap core CSS -->
@@ -129,7 +131,7 @@
                             <div class="about-us about-us-description ml-2 mr-2 text-left ">
                                 <h6 class="subtitle font-weight-bold text-secondary">Feel relaxed</h6>
                                 <h2 class="title font-weight-bold text-light">Never again let you worry<br>about terms and conditions!</h2>
-                                <p class="title-description text-light">Just by entering a url, we scan the site's terms and conditions and simplify the terms and condition to few Kew paragraphs using our TCScan Sensei, the powerful AI behind many of our intelligent features.
+                                <p class="title-description text-light">Just by entering a url, we scan the site's terms and conditions and noting down Kew paragraphs using our TCScan Sensei, the powerful AI behind many of our intelligent features.
                             </div>
                         </div>
                         <div class="col-sm-5">
@@ -167,13 +169,19 @@
                             </div>
                             <div class="row screens-preview mt-5">
                                 <div class="col-4">
-                                    <img src="img/screen1.png" class="img-fluid">
+                                    <a class="preview-image-link" href="img/screen2.png" data-lightbox="preview-screen-set" data-title="Click the right half of the image to move forward.">
+                                        <img class="preview-screen-image img-fluid animate__animated animate__backInLeft animate__delay-2s" src="img/screen1.png" alt=""/>
+                                    </a>
                                 </div>
                                 <div class="col-4">
-                                    <img src="img/screen2.png" class="img-fluid">
+                                    <a class="preview-image-link" href="img/screen2.png" data-lightbox="preview-screen-set" data-title="Click the right half of the image to move forward.">
+                                        <img class="preview-screen-image img-fluid animate__animated animate__backInTop animate__delay-2s" src="img/screen2.png" alt=""/>
+                                    </a>
                                 </div>
                                 <div class="col-4">
-                                    <img src="img/screen3.png" class="img-fluid">
+                                    <a class="preview-image-link" href="img/screen3.png" data-lightbox="preview-screen-set" data-title="Click the right half of the image to move forward.">
+                                        <img class="preview-screen-image img-fluid animate__animated animate__backInRight animate__delay-2s" src="img/screen3.png" alt=""/>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -248,14 +256,35 @@
 
 <!-- TEST CODE SECTION -->
 
+<section>
+    <h3>Two Individual Images</h3>
+    <div>
+      <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-1.jpg" data-lightbox="example-1">
+        <img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-1.jpg" alt="image-1" /></a>
+      <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-2.jpg" data-lightbox="example-2" data-title="Optional caption."><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-2.jpg" alt="image-1"/></a>
+    </div>
+
+    <hr />
+
+    <h3>A Four Image Set</h3>
+    <div>
+        <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-3.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
+            <img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-3.jpg" alt=""/>
+        </a>
+      <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-4.jpg" data-lightbox="example-set" data-title="Or press the right arrow on your keyboard."><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-4.jpg" alt="" /></a>
+      <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-5.jpg" data-lightbox="example-set" data-title="The next image in the set is preloaded as you're viewing."><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-5.jpg" alt="" /></a>
+      <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-6.jpg" data-lightbox="example-set" data-title="Click anywhere outside the image or the X to the right to close."><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-6.jpg" alt="" /></a>
+    </div>
+  </section>
 <!-- END TEST CODE SECTION -->
 
 
 
 
+        <!-- Lightbox JS -->
+        <script src="javascript/vendors/lightbox2-2.1.1/lightbox-plus-jquery.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="javascript/vendors/bootstrap.bundle.js"></script>
-        
         <script src="javascript/script.js"></script>
     </body>
 </html>
