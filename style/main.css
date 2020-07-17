@@ -243,8 +243,13 @@ body::-webkit-scrollbar-thumb {
     border-radius:50%;           /* roundness of the scroll thumb */
     margin-right:1px;     
 }
-
-
+/* LIGHTBOX PLUS */
+.lightbox .lb-image {
+    border: 0px;
+}
+.lb-outerContainer {
+    background-color: #ffffff00;
+}
 .reload-page{
     cursor:pointer;
 }
