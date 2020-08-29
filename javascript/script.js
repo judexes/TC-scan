@@ -22,7 +22,7 @@ $('#Reloadpage').click(function() {
 // COUNTDOWN TIMER -------------------------------
 
 // Set the date we're counting down to
-var countDownDate = new Date("Jul 30, 2020 15:37:25").getTime();
+var countDownDate = new Date("oct 20, 2020 15:37:25").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -41,7 +41,7 @@ var x = setInterval(function() {
     
   // Output the result in an element with id="demo"
   document.getElementById("day").innerHTML = days;
-  document.getElementById("hour").innerHTML = hours;
+  document.getElementById("hour").innerHTML = hours;  
   document.getElementById("min").innerHTML = minutes;
   document.getElementById("sec").innerHTML = seconds;
     
